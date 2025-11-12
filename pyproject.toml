@@ -61,7 +61,7 @@ package-dir = { "subnet-2" = "neurons" }
 packages = ["subnet-2"]
 
 [tool.setuptools.dynamic]
-version = { attr = "subnet-2.__version__" }
+version = { attr = "neurons.__version__" }
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
