@@ -16,7 +16,7 @@ permissions:
 jobs:
   bandit:
     name: Bandit Security Analysis
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-large-plus-16c-32g
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
@@ -58,7 +58,7 @@ jobs:
 
   safety:
     name: Safety Dependency Check
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-large-plus-16c-32g
     steps:
       - name: Checkout code
         uses: actions/checkout@v5

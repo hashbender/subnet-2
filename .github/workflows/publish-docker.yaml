@@ -15,7 +15,7 @@ env:
 
 jobs:
   build-and-push-image:
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-large-plus-16c-32g
     permissions:
       contents: read
       packages: write
